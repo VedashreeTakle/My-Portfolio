@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3217099142.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav style="color: black;">
+                    <img src="logo.jpeg" class="logo">
+                    <ul>
+                        <li><a href="#header" >Home</a></li>
+                        <li><a href="#about" >About</a></li>
+                        <li><a href="#services" >Services</a></li>
+                        <li><a href="#potfolio" >Portfolio</a></li>
+                        <li><a href="#contact" >Contact</a></li>
+                    </ul>
+                </nav>
+                <section class="home">
+                    <div class="header-text">
+                        <span>Hello, I am </span>
+                        <H1><span>Vedashree Takle</span></H1>
+                        <H3>I am a <span class="text"></span></H3>
+                    </div>
+                        <div class="home-img">
+                            <img src="marinette.jpeg" alt="profile">
+                        </div>
+                </section>
+            </div>
+        </div>
+        <!--ABOUT-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="marinette.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>As a to-be data analyst, I specialize in turning numbers into stories and challenges into opportunities. My expertise lies in using advanced analytical techniques to uncover patterns, predict trends, and build meaningful solutions. Whether diving deep into datasets or designing intuitive visualizations, I’m passionate about leveraging data to empower decisions and create value.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data</span><br>Analytical Projects</li>
+                            <li><span>Languages</span><br>Python Programming</li>
+                            <li><span>UI/UX</span><br>Designing Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Exp</span><br>Looking for Internships and Job Offers</li>
+                            <!--
+                            <li><span>Exp</span><br>Designing Website</li>
+                            <li><span>C++</span><br>Very good</li>
+                            <li><span>UI/UX</span><br>Designing Website</li>
+                        -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th</span><br>Billbong High International School (ICSE Board) <br> 96.67%</li>
+                            <li><span>12th</span><br>Lakshya Institute (HSC Board Maharashtra Gov) <br> 84.5%</li>
+                            <li><span>Gradutation</span><br>Maharashtra Institute of Technology, Pune <br> BTech CSE (CORE)</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Data Analysis Projects</h2>
+                        <p>I am a data analyst passionate about transforming raw data into actionable insights. From trend analysis to predictive modeling, I thrive on uncovering patterns and telling stories through data. My goal is to turn complexity into clarity, enabling smarter decisions and impactful outcomes.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python Programming</h2>
+                        <p>With Python as my go-to tool, I build efficient solutions for data analysis, machine learning, and automation. From crafting scripts to designing scalable applications, I enjoy leveraging Python’s versatility to solve complex challenges and streamline workflows.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <p>I design and develop user-centric websites that blend functionality with aesthetics. With a focus on intuitive interfaces and seamless experiences, I bring ideas to life by combining creativity with technical expertise in modern web technologies.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="flipkart_grid_participation.jpg">
+                        <div class="layer">
+                            <h3>Flipkart Grid 6.0</h3>
+                            <p>I proudly participated in the Flipkart Grid competition on Unstop, collaborating with my team to solve real-world tech challenges. Leading the data analysis efforts, I contributed innovative solutions while enhancing my teamwork and problem-solving skills. Earning the participation certificate reflects our dedication and drive in a competitive arena.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="ByteMe_seminar.jpg">
+                        <div class="layer">
+                            <h3>Byte Me Seminar by GDSC</h3>
+                            <p>I attended the Byte Me seminar organized by the Google Students Club, an inspiring event that explored the latest trends in technology and innovation. Engaging with industry experts and like-minded peers, I gained valuable insights into emerging tech domains and their real-world applications. This experience deepened my passion for learning and staying at the forefront of technological advancements.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="woodpecker certificate.jpg">
+                        <div class="layer">
+                            <h3>Woodpecker Hackathon</h3>
+                            <p>I had the privilege of participating in the prestigious Woodpecker Hackathon, competing against some of the brightest minds across India. Collaborating with my team, I contributed to designing and developing an innovative solution that showcased our technical skills and creativity. Securing the 11th position at the national level was a testament to our dedication, teamwork, and problem-solving abilities in a highly competitive environment.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!--Contact form-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>taklevedashree@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://github.com/VedashreeTakle"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Online_resume_bulider_certificate.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Enter your message" ></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HTML TYPING ANIMATION-->
+        <script>
+            var typed =new Typed(".text", {
+                strings: [ "Frontend Developer", "Data Analyst" , "Programmer", "Fresher"],
+                typeSpeed:100,
+                backSpeed:100,
+                backDisplay:1000,
+                loop:true
+            });
+        </script>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+            
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="0"
+            }
+
+        </script>
+        <!--HTML CONNECTION TO GOOGLE SPREADSHEET-->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzK8aqu4iVn6vGj_JH65BGaA6YWbXV4exN-DEEufs56nG5M4dL4rzQiUi2lWeTTQO29/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =  document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Thank you for your message!"
+                    setTimeout(function (){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
